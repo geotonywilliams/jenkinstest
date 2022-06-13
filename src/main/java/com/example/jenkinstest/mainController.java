@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class mainController {
     @GetMapping("")
     public String SayHello(){
-        return "Hello World!!!";
+        return "Hello World!!!. This is to test a build from a commit";
     }
 }
